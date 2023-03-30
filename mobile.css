@@ -1,0 +1,128 @@
+@media only screen and (max-width: 600px) {
+    
+    nav .inside-nav h3 {
+        font-size: 1em;
+    }
+
+    .mobil-tablet-nav button{
+        height: 35px;
+    }
+
+    .mobil-tablet-nav {
+        padding: 2em 1em !important;
+    }
+
+    main .top-section h3{
+        font-size: 1.5em;
+    }
+    
+    footer {
+        padding: 1em 1em;
+    }
+
+    header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10em 1em;
+    }
+
+    main .building-web h2 {
+        width: 100%;
+    }
+
+    header .left-section h2 {
+        font-size: 3em;
+    }
+
+    header .right-section .mobile-container {
+        width: 6.6em;
+    }
+    
+    header .right-section .mobile-container .video-container {
+        width: 92px;
+        left: 8px;
+    }
+
+    header .right-section .mobile-container .circle{
+        width: 150px;
+        height: 150px;
+    }
+
+    main .features-section .mobileIMG-section {
+        width: 7em;
+    }
+
+    main .features-section .mobileIMG-section .video-container {
+        width: 98px;
+        left: 8px;
+    }
+
+    main .features-section .features-details .about-features h3 {
+        font-size: 1.3em;
+    }
+
+    main .building-web{
+        padding: 1em;
+    }
+
+    main .building-web h2{
+        font-size: 3em;
+    }
+
+    main .building-web button {
+        width: 9em;
+        font-size: 1em;
+        padding: 1em;
+    }
+
+    main .final-section{
+        padding: .5em;
+    }
+
+    main .web-design img {
+        width: 200px;
+        height: 200px;
+    }
+
+    main .web-design .inside-web p {
+        font-size: 1em;
+        word-spacing: 4px;
+        line-height: 1.4;
+        padding: 0 1.3em;
+    }
+
+    body > main > article.web-design > div:nth-child(1) {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .mobil-tablet-nav{
+        padding: 2em 3em;
+    }
+
+    main .web-design {
+        padding: .5em;
+        flex-direction: column;
+    }
+
+    main .web-design .inside-web h2 {
+        /* width: 7em; */
+        font-size: 2em;
+        padding-bottom: 1em;
+    }
+
+    main .final-section .app-store {
+        width: 100px;
+    }
+
+    main .final-section .google-play {
+        width: 100px;
+    }
+
+    main .building-web{
+        background-position-x: center;
+    }
+}

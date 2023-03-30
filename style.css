@@ -1,0 +1,360 @@
+/* ------------ nav bar -------------*/
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 2em 10em;
+    background-color: #fff;
+    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075) !important;
+    z-index: 4 !important;
+}
+
+nav .inside-nav h3{
+    font-size: 1.4em;
+}
+
+nav .inside-nav ul a{
+    font-size: 1.2em;
+    text-decoration: none;
+    color: black;
+}
+
+nav .inside-nav ul a:hover{
+    text-decoration: underline;
+    color: #c0c0c0;
+}
+
+/*-------------- mobile and tablet nav --------------*/
+
+.mobil-tablet-nav{
+    display: none;
+    justify-content: space-between;
+    padding: 2em 10em;
+    background-color: #fff;
+    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075) !important;
+    z-index: 4 !important;
+}
+
+.mobil-tablet-nav h3{
+    font-size: 1.4em;
+}
+
+.mobil-tablet-nav button{
+    height: 55px;
+    border: 1px solid #bebebe;
+    background-color: #fff;
+    border-radius: 10px;
+    transition: .4s all;
+}
+
+.mobil-tablet-nav button:focus{
+    color: #fff;
+    background: #544a7d;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(150deg, #ffd452, #544a7d);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(150deg, #ffd452, #544a7d); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+#dif-scren-nav{
+    transition: opacity 1s ease-out;
+    opacity: 0;
+    height: 0;
+    overflow: hidden;
+}
+
+#dif-scren-nav.active{
+    opacity: 1;
+    height: auto;
+}
+
+#dif-scren-nav ul li a{
+    text-decoration: none;
+    color: #999999;
+}
+
+/* --------------- header ---------------*/
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10em 10em;
+}
+
+header .left-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+header .left-section h2{
+    font-size: 5em;
+    font-weight: bold;
+}
+
+header .left-section p{
+    margin-top: 1.5em;
+    font-size: 1.3em;
+    line-height: 2em;
+}
+
+header .play-shop{
+    display: flex;
+    margin-top: 2em;
+    gap: 1.5em;
+}
+
+header .play-shop .play-container{
+    width: 30%;
+}
+
+header .play-shop .play-container img{
+    width: 100%;
+}
+
+/* --------------------- Start right section of header -------------------- */
+
+header .right-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header .right-section .mobile-container{
+    width: 15.6em;
+}
+
+header .right-section .mobile-container .circle{
+    width: 400px;
+    height: 400px;
+    background: #544a7d;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(150deg, #ffd452, #544a7d);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(150deg, #ffd452, #544a7d); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    z-index: -2 !important;
+    border-radius: 50%;
+}
+
+header .right-section .mobile-container .video-container{
+    width: 220px;
+    border-radius: 10px;
+    top: 6px;
+    left: 15px;
+    z-index: -1 !important;
+}
+
+header .right-section .mobile-container img{
+    z-index: 1 !important;
+}
+
+header .right-section .mobile-container .dot-icon{
+    top: -25px;
+    right: -25px;
+}
+
+header .right-section .mobile-container .mul-icon{
+    bottom: -25px;
+    left: -25px;
+    transform: rotate(25deg);
+}
+
+/*-------------- start main top-section --------------*/
+main .top-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5em 20em;
+    gap: 1em;
+    background: #544a7d;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(150deg, #ffd452, #544a7d);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(150deg, #ffd452, #544a7d); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+
+main .top-section h3{
+    font-size: 2.5em;
+    color: #fff;
+    text-align: center;
+}
+
+main .top-section .logo-container{
+    width: 100px;
+}
+
+/*---------------- main features section ----------------- */
+
+main .features-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5em 10em;
+}
+
+main .features-section .mobileIMG-section{
+    width: 14em;
+}
+
+main .features-section .mobileIMG-section .video-container{
+    width: 200px;
+    border-radius: 10px;
+    top: 6px;
+    left: 15px;
+    z-index: -1 !important;
+}
+
+main .features-section .mobileIMG-section .backOfMobile-circle{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    z-index: -2 !important;
+    background: #544a7d;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(150deg, #ffd452, #544a7d);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(150deg, #ffd452, #544a7d); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+/*------------------------------------------------------------*/
+
+main .features-section .features-details{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2em;
+    width: 45%;
+}
+
+main .features-section .features-details .about-features{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+}
+
+main .features-section .features-details .about-features i{
+    font-size: 3em;
+    color: #544a7d;
+    color: -webkit-linear-gradient(150deg, #ffd452, #544a7d);  /* Chrome 10-25, Safari 5.1-6 */;
+    color: linear-gradient(150deg, #ffd452, #544a7d); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+main .features-section .features-details .about-features h3{
+    font-size: 2em;
+    font-weight: bold;
+}
+
+main .features-section .features-details .about-features p{
+    width: 200px;
+    text-align: center;
+    line-height: 1.2;
+}
+
+/*------------------ article web-design ---------------*/
+
+main .web-design{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4em;
+    background-color: #dddddd;
+    padding: 5em 10em;
+}
+
+main .web-design .inside-web h2{ 
+    width: 7em;
+    font-size: 3em;
+    padding-bottom: 1em;
+}
+
+main .web-design .inside-web p{
+    font-size: 1.5em;
+    width: 17em;
+    word-spacing: 4px;
+}
+
+main .web-design img{
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+}
+
+/*-------------- building website ------------------*/
+
+main .building-web{
+    padding: 10em 10em;
+    background-image: url(https://source.unsplash.com/5g41N3uRPf8/1500x800);
+    filter: grayscale(50%);
+}
+
+main .building-web h2{
+    width: 7em;
+    font-size: 4EM;
+    font-weight: bold;
+    color: #fff;
+}
+
+main .building-web button{
+    margin: 2em 0;
+    width: 10em;
+    font-size: 1.3em;
+    border: 1px solid #fff;
+    background: none;
+    color: #fff;
+    padding: 1.1em;
+    border-radius: 30px;
+    transition: .4s all ;
+}
+
+main .building-web button:hover{
+    background-color: #fff;
+    color: #000;
+}
+
+/* ------------ final section(download section) ------------- */
+
+main .final-section{
+    padding: 5em 10em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #544a7d;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(150deg, #ffd452, #544a7d);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(150deg, #ffd452, #544a7d); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+main .final-section h2{
+    font-size: 2em;
+    font-weight: bold;
+    margin-bottom: 2em;
+}
+
+main .final-section .google-play{
+    width: 200px;
+}
+
+main .final-section .app-store{
+    width: 200px;
+}
+
+/* -------------------- footer -----------------*/
+
+footer{
+    display: flex;
+    padding: 5em 10em;
+    background-color: #000;
+    color: #fff;
+    gap: 1em;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+footer a{
+    text-decoration: none;
+    color: #fff;
+}
+
+footer a:hover{
+    text-decoration: underline;
+}
