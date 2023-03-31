@@ -82,4 +82,12 @@
     main .web-design .inside-web p {
         text-align: center;
     }
+
+    body > main > article.web-design > div:nth-child(1){
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding: 2em 0;
+    }
 }
